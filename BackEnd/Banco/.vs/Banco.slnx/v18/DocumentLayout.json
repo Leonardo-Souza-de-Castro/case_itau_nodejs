@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Leonardo\\Desktop\\case_itau_nodejs\\BackEnd\\Banco\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{569D3F15-3463-44C4-901A-6D678E4C8EF8}|Banco.csproj|c:\\users\\leonardo\\desktop\\case_itau_nodejs\\backend\\banco\\repositoris\\clienterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{569D3F15-3463-44C4-901A-6D678E4C8EF8}|Banco.csproj|solutionrelative:repositoris\\clienterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{569D3F15-3463-44C4-901A-6D678E4C8EF8}|Banco.csproj|c:\\users\\leonardo\\desktop\\case_itau_nodejs\\backend\\banco\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{569D3F15-3463-44C4-901A-6D678E4C8EF8}|Banco.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{569D3F15-3463-44C4-901A-6D678E4C8EF8}|Banco.csproj|c:\\users\\leonardo\\desktop\\case_itau_nodejs\\backend\\banco\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{569D3F15-3463-44C4-901A-6D678E4C8EF8}|Banco.csproj|solutionrelative:controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "clienteRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Leonardo\\Desktop\\case_itau_nodejs\\BackEnd\\Banco\\Repositoris\\clienteRepository.cs",
+              "RelativeDocumentMoniker": "Repositoris\\clienteRepository.cs",
+              "ToolTip": "C:\\Users\\Leonardo\\Desktop\\case_itau_nodejs\\BackEnd\\Banco\\Repositoris\\clienteRepository.cs",
+              "RelativeToolTip": "Repositoris\\clienteRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-10T16:21:18.143Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Leonardo\\Desktop\\case_itau_nodejs\\BackEnd\\Banco\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Leonardo\\Desktop\\case_itau_nodejs\\BackEnd\\Banco\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-10T16:20:35.14Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "C:\\Users\\Leonardo\\Desktop\\case_itau_nodejs\\BackEnd\\Banco\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "Controllers\\WeatherForecastController.cs",
+              "ToolTip": "C:\\Users\\Leonardo\\Desktop\\case_itau_nodejs\\BackEnd\\Banco\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "Controllers\\WeatherForecastController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-10T16:14:49.53Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
