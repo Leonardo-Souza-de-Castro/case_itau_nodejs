@@ -1,12 +1,87 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\Leonardo\\Desktop\\case_itau_nodejs\\BackEnd\\Banco\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6E148109-E245-4F76-AE6D-D4B4A9ABC702}|..\\TestBanco\\Banco.UnitTest.csproj|c:\\users\\leonardo\\desktop\\case_itau_nodejs\\backend\\testbanco\\controller\\clienterepositorytest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3361FFA-17CA-A00F-E56E-06ECBD3C15C6}|Banco.csproj|c:\\users\\leonardo\\desktop\\case_itau_nodejs\\backend\\banco\\controllers\\clientecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3361FFA-17CA-A00F-E56E-06ECBD3C15C6}|Banco.csproj|solutionrelative:controllers\\clientecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3361FFA-17CA-A00F-E56E-06ECBD3C15C6}|Banco.csproj|c:\\users\\leonardo\\desktop\\case_itau_nodejs\\backend\\banco\\interface\\iclienterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3361FFA-17CA-A00F-E56E-06ECBD3C15C6}|Banco.csproj|solutionrelative:interface\\iclienterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3361FFA-17CA-A00F-E56E-06ECBD3C15C6}|Banco.csproj|c:\\users\\leonardo\\desktop\\case_itau_nodejs\\backend\\banco\\repositories\\clienterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3361FFA-17CA-A00F-E56E-06ECBD3C15C6}|Banco.csproj|solutionrelative:repositories\\clienterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IClienteRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Leonardo\\Desktop\\case_itau_nodejs\\BackEnd\\Banco\\Interface\\IClienteRepository.cs",
+              "RelativeDocumentMoniker": "Interface\\IClienteRepository.cs",
+              "ToolTip": "C:\\Users\\Leonardo\\Desktop\\case_itau_nodejs\\BackEnd\\Banco\\Interface\\IClienteRepository.cs",
+              "RelativeToolTip": "Interface\\IClienteRepository.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAowDMAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-15T23:01:44.484Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ClienteController.cs",
+              "DocumentMoniker": "C:\\Users\\Leonardo\\Desktop\\case_itau_nodejs\\BackEnd\\Banco\\Controllers\\ClienteController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ClienteController.cs",
+              "ToolTip": "C:\\Users\\Leonardo\\Desktop\\case_itau_nodejs\\BackEnd\\Banco\\Controllers\\ClienteController.cs",
+              "RelativeToolTip": "Controllers\\ClienteController.cs",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAIwFQAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-15T22:23:05.337Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ClienteRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Leonardo\\Desktop\\case_itau_nodejs\\BackEnd\\Banco\\Repositories\\ClienteRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\ClienteRepository.cs",
+              "ToolTip": "C:\\Users\\Leonardo\\Desktop\\case_itau_nodejs\\BackEnd\\Banco\\Repositories\\ClienteRepository.cs",
+              "RelativeToolTip": "Repositories\\ClienteRepository.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAArwC4AAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-15T22:03:43.342Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ClienteRepositoryTest.cs",
+              "DocumentMoniker": "C:\\Users\\Leonardo\\Desktop\\case_itau_nodejs\\BackEnd\\TestBanco\\Controller\\ClienteRepositoryTest.cs",
+              "RelativeDocumentMoniker": "..\\TestBanco\\Controller\\ClienteRepositoryTest.cs",
+              "ToolTip": "C:\\Users\\Leonardo\\Desktop\\case_itau_nodejs\\BackEnd\\TestBanco\\Controller\\ClienteRepositoryTest.cs",
+              "RelativeToolTip": "..\\TestBanco\\Controller\\ClienteRepositoryTest.cs",
+              "ViewState": "AgIAAHYAAAAAAAAAAADwv4sAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-15T21:58:59.438Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }
