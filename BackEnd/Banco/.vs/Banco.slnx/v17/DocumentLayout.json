@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\Leonardo\\Desktop\\case_itau_nodejs\\BackEnd\\Banco\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A3361FFA-17CA-A00F-E56E-06ECBD3C15C6}|Banco.csproj|c:\\users\\leonardo\\desktop\\case_itau_nodejs\\backend\\banco\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3361FFA-17CA-A00F-E56E-06ECBD3C15C6}|Banco.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{6E148109-E245-4F76-AE6D-D4B4A9ABC702}|..\\TestBanco\\Banco.UnitTest.csproj|c:\\users\\leonardo\\desktop\\case_itau_nodejs\\backend\\testbanco\\controller\\clienterepositorytest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -25,11 +29,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Leonardo\\Desktop\\case_itau_nodejs\\BackEnd\\Banco\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Leonardo\\Desktop\\case_itau_nodejs\\BackEnd\\Banco\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAADwv0IAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T01:29:44.175Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "IClienteRepository.cs",
               "DocumentMoniker": "C:\\Users\\Leonardo\\Desktop\\case_itau_nodejs\\BackEnd\\Banco\\Interface\\IClienteRepository.cs",
               "RelativeDocumentMoniker": "Interface\\IClienteRepository.cs",
@@ -37,12 +54,11 @@
               "RelativeToolTip": "Interface\\IClienteRepository.cs",
               "ViewState": "AgIAABgAAAAAAAAAAAAowDMAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-15T23:01:44.484Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-15T23:01:44.484Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "ClienteController.cs",
               "DocumentMoniker": "C:\\Users\\Leonardo\\Desktop\\case_itau_nodejs\\BackEnd\\Banco\\Controllers\\ClienteController.cs",
               "RelativeDocumentMoniker": "Controllers\\ClienteController.cs",
@@ -50,12 +66,11 @@
               "RelativeToolTip": "Controllers\\ClienteController.cs",
               "ViewState": "AgIAAEEAAAAAAAAAAAAIwFQAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-15T22:23:05.337Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-15T22:23:05.337Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "ClienteRepository.cs",
               "DocumentMoniker": "C:\\Users\\Leonardo\\Desktop\\case_itau_nodejs\\BackEnd\\Banco\\Repositories\\ClienteRepository.cs",
               "RelativeDocumentMoniker": "Repositories\\ClienteRepository.cs",
@@ -63,12 +78,11 @@
               "RelativeToolTip": "Repositories\\ClienteRepository.cs",
               "ViewState": "AgIAACYAAAAAAAAAAAArwC4AAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-15T22:03:43.342Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-15T22:03:43.342Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "ClienteRepositoryTest.cs",
               "DocumentMoniker": "C:\\Users\\Leonardo\\Desktop\\case_itau_nodejs\\BackEnd\\TestBanco\\Controller\\ClienteRepositoryTest.cs",
               "RelativeDocumentMoniker": "..\\TestBanco\\Controller\\ClienteRepositoryTest.cs",

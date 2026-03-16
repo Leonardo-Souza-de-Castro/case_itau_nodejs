@@ -1,0 +1,11 @@
+<section class="container">
+    <h2 class="titulo">{{cliente.nome}}</h2>
+
+    <p class="conteudo">{{cliente.email}}</p>
+    <p class="conteudo">R$ {{cliente.saldo}}</p>
+
+    <div class="fundo">
+    <button class="btnCancelar" (click)="editar()">Editar informações</button>
+    <button class="btnConfirmar" (click)="saldo()">Editar saldo</button>
+    </div>
+</section>

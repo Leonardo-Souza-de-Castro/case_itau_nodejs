@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Kantumruy+Pro:ital,wght@0,100..700;1,100..700&display=swap');
+
+.cabecalho{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FF7700;
+    height: 10vh;
+    width: 100vw;
+}
+
+.container{
+    display: flex;
+    width: 67%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nomeAba{
+    color: white;
+    font-family: "Kantumruy Pro", sans-serif;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.containerConteudo{
+    width: 100vw;
+    height: 90vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.boxInfos{
+    width: 40%;
+    height: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fundo{
+    height: 100%;
+    background-color: #D9D9D9;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 12px;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.15);
+    width: 50%;
+}
+
+.tituloCliente{
+    font-family: "Kantumruy Pro", sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.conteudo {
+    font-family: "Kantumruy Pro", sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.boxIcon{
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
