@@ -1,6 +1,6 @@
 import { HttpHeaders, HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
-import { Observable } from 'rxjs';
+import { Subject } from 'rxjs';
 import { Cliente } from '../shared/models/clientes';
 
 @Injectable({
@@ -9,6 +9,9 @@ import { Cliente } from '../shared/models/clientes';
 export class Requests {
 
   apiUrl = 'http://localhost:5220/api/Cliente';
+
+  private atualizarLista = new Subject<void>();
+  atualizarLista$ = this.atualizarLista.asObservable();
 
   httpOptions = {
     headers: new HttpHeaders({
@@ -19,6 +22,10 @@ export class Requests {
   constructor(
     private httpClient: HttpClient
   ) { }
+
+  notificarAtualizacao() {
+    this.atualizarLista.next();
+  }
 
   public listarClientes() {
     return this.httpClient.get<Cliente[]>(this.apiUrl);
@@ -41,11 +48,11 @@ export class Requests {
   }
 
   public sacar(id: number, saldo: any) {
-    return this.httpClient.put(this.apiUrl + "/" + id, saldo, this.httpOptions);
+    return this.httpClient.put(this.apiUrl + "/" + id + "/sacar", saldo, this.httpOptions);
   }
   
   public depositar(id: number, saldo: any)  {
-    return this.httpClient.put(this.apiUrl + "/" + id, saldo, this.httpOptions);
+    return this.httpClient.put(this.apiUrl + "/" + id + "/depositar", saldo, this.httpOptions);
   }
 
 }

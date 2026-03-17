@@ -8,6 +8,8 @@ import { MatButtonModule } from '@angular/material/button';
 import { Confirmacao } from '../confirmacao/confirmacao';
 import { Opcoes } from '../opcoes/opcoes';
 import { MatDialog } from '@angular/material/dialog';
+import { ChangeDetectorRef } from '@angular/core';
+import { Cadastrar } from '../cadastrar/cadastrar';
 
 @Component({
   selector: 'app-home',
@@ -20,17 +22,26 @@ export class Home implements OnInit {
   clienteSelecionado: Cliente | null = null;
   
   constructor(private service: Requests,
-    private dialog: MatDialog
+    private dialog: MatDialog,
+    private cdr: ChangeDetectorRef
   ) { }
 
   ngOnInit() {
     this.listarClientes();
+
+    this.service.atualizarLista$.subscribe(() => {
+      setTimeout(() => {
+        this.listarClientes();
+      }, 200);
+    });
+
   }
 
   listarClientes(){
     this.service.listarClientes().subscribe({
       next: (dados) => {
         this.clientes = dados;
+        this.cdr.detectChanges();
       },
       error: (erro) => {
         console.error("Erro ao buscar clientes", erro);
@@ -45,13 +56,13 @@ export class Home implements OnInit {
       if(result){
         this.service.deletarCliente(id).subscribe(() => {
           this.clientes = this.clientes.filter(c => c.id !== id);
+          this.service.notificarAtualizacao();
         });
       }
     });
   }
 
   abrirInfo(id: number){
-    // Lógica para abrir o diálogo de informações do cliente
     this.service.buscarCliente(id).subscribe({
       next: (dados) => {
         this.clienteSelecionado = dados;
@@ -64,7 +75,9 @@ export class Home implements OnInit {
         console.error("Erro ao buscar clientes", erro);
       }
     });
+  }
 
-    
+  abrirCadastro(){
+    const dialogRef = this.dialog.open(Cadastrar);
   }
 }

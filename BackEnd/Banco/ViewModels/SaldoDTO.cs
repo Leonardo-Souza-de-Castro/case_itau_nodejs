@@ -2,6 +2,6 @@
 {
     public class SaldoDTO
     {
-        public float Saldo { get; set; }
+        public float Valor { get; set; }
     }
 }

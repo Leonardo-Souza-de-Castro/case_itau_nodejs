@@ -1,7 +1,7 @@
 <main>
     <header class="cabecalho">
         <div class="container">
-            <img src="../../assets/image 1.svg" alt="Logo do Banco Itau">
+            <img src="assets/logo.svg" alt="Logo do Banco Itau" class="logo">
             <h1 class="nomeAba">Clientes</h1>
         </div>
     </header>
@@ -11,14 +11,19 @@
                 <div>
                     <p class="tituloCliente">{{ cliente.nome }}</p>
                     <p class="conteudo">{{ cliente.email }}</p>
-                    <p class="conteudo">{{ cliente.saldo }}</p>
+                    <p class="conteudo">R$ {{ cliente.saldo }}</p>
                 </div>
                 <div class="boxIcon">
-                    <mat-icon (click)="abrirInfo(cliente.id)">edit</mat-icon>
-                    <mat-icon (click)="deletarCliente(cliente.id)">delete</mat-icon>
+                    <mat-icon class="cursor" (click)="abrirInfo(cliente.id)">edit</mat-icon>
+                    <mat-icon class="cursor" (click)="deletarCliente(cliente.id)">delete</mat-icon>
                 </div>
             </div>
         </div>
         
     </section>
+    <div>
+        <button mat-fab color="primary" class="fab" (click)="abrirCadastro()">
+            <mat-icon>add</mat-icon>
+        </button>
+    </div>
 </main>

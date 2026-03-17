@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Kantumruy+Pro:ital,wght@0,100..700;1,100..700&display=swap');
-
+.logo{
+    width: 5%;
+}
 .cabecalho{
     display: flex;
     justify-content: center;
@@ -69,4 +71,21 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
+}
+
+.fab {
+  position: fixed;
+  bottom: 24px;
+  right: 24px;
+
+  background-color: #FF7700;
+  color: white;
+}
+
+.fab:hover {
+  background-color: #e66a00; /* leve escurecida no hover */
+}
+
+.cursor{
+    cursor: pointer;
 }

@@ -116,7 +116,7 @@ namespace Banco.Controllers
         /// </summary>
         /// <param name="valor">Valor da operação</param>
         /// <param name="id">Id do cliente</param>
-        [HttpPost("{id}/sacar")]
+        [HttpPut("{id}/sacar")]
         public IActionResult Sacar([FromBody] SaldoDTO valor, int id)
         {
             try
@@ -136,7 +136,7 @@ namespace Banco.Controllers
         /// </summary>
         /// <param name="valor">Valor da operação</param>
         /// <param name="id">Id do cliente</param>
-        [HttpPost("{id}/depositar")]
+        [HttpPut("{id}/depositar")]
         public IActionResult Depositar([FromBody] SaldoDTO valor, int id)
         {
             try

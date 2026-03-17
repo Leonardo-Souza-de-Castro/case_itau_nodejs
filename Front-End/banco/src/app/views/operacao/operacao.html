@@ -1,1 +1,29 @@
-<p>operacao works!</p>
+<div class="container">
+    <div class="boxTitulo">
+        <h2 class="titulo">{{ mostrarSaldo ? ('R$ ' + cliente.saldo) : 'R$ *************' }}</h2>
+        <mat-icon (click)="mostrarSaldo = !mostrarSaldo">
+            {{ mostrarSaldo ? 'visibility' : 'visibility_off' }}
+        </mat-icon>
+    </div>
+
+    <form class="form" [formGroup]="formulario">
+        <div class="campo">
+            <label for="valor" class="conteudo">Insira o valor que queira sacar ou depositar:</label>
+            <input type="number" id="valor" formControlName="valor" step="0.01" min="0">
+        </div>
+
+        <div class="fundo">
+          <button class="btnCancelar" type="button" (click)="sacar()">
+            Sacar
+          </button>
+        
+          <button class="btnConfirmar" type="button" (click)="depositar()">
+            Depositar
+          </button>
+        </div>
+
+    </form>
+
+    <span *ngIf="erroMensagem">{{ erroMensagem }}</span>
+    
+</div>

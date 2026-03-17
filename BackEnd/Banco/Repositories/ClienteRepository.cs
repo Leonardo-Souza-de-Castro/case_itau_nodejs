@@ -61,7 +61,7 @@ namespace Banco.Repositoris
         {
             Cliente clienteBuscado = BuscarClientePorId(id);
 
-            float valorSaque = valor.Saldo;
+            float valorSaque = valor.Valor;
 
             if (valorSaque <= 0)
             {
@@ -85,7 +85,7 @@ namespace Banco.Repositoris
         public void Depositar(SaldoDTO valor, int id)
         {
             Cliente clienteBuscado = BuscarClientePorId(id);
-            float valorDeposito = valor.Saldo;
+            float valorDeposito = valor.Valor;
 
             if (valorDeposito <= 0)
             {
